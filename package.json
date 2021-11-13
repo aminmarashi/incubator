@@ -1,11 +1,11 @@
 {
   "name": "incubator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Where I put isolated code for testing",
   "main": "index.js",
   "scripts": {
-    "start": "f(){ esbuild --bundle --platform=node $@ | node; };f",
-    "test": "npm run start test.ts"
+    "start": "evanw",
+    "test": "npm start ./test"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
   "homepage": "https://github.com/aminmarashi/incubator#readme",
   "devDependencies": {
     "@types/node": "^16.11.7",
-    "esbuild": "^0.13.13"
+    "evanw": "^1.0.3"
   }
 }

@@ -1,5 +1,6 @@
 # incubator
-Where I put isolated code for testing
+
+Where I put isolated code for testing, this project uses [evanw](https://github.com/aminmarashi/evanw) to run the scripts.
 
 ## Getting started
 
