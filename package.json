@@ -1,6 +1,6 @@
 {
   "name": "incubator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Where I put isolated code for testing",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,6 @@
   "homepage": "https://github.com/aminmarashi/incubator#readme",
   "devDependencies": {
     "@types/node": "^16.11.7",
-    "evanw": "^1.0.3"
+    "evanw": "^1.0.6"
   }
 }
