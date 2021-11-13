@@ -1,0 +1,24 @@
+{
+  "name": "incubator",
+  "version": "1.0.0",
+  "description": "Where I put isolated code for testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "f(){ esbuild --bundle --platform=node $@ | node; };f",
+    "test": "npm run start test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminmarashi/incubator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aminmarashi/incubator/issues"
+  },
+  "homepage": "https://github.com/aminmarashi/incubator#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "esbuild": "^0.13.13"
+  }
+}
